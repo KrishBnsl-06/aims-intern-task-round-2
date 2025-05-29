@@ -27,7 +27,7 @@ The application processes an image of a dish along with a vague textual descript
 
 ├── aims-intern-round2.py   # Main application script
 ├── recipes_2.csv           # Dataset containing sample recipes
-├── images(2)/images/                 # Directory with sample dish images
+├── images(2)/images/       # Directory with sample dish images
 └── README.md               # Project documentation
 ```
 
