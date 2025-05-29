@@ -9,8 +9,6 @@ This project leverages the Gemma model to generate concise and accurate recipes 
 * [Project Structure](#project-structure)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Sample Output](#sample-output)
-* [License](#license)
 
 ## Overview
 
@@ -29,8 +27,7 @@ The application processes an image of a dish along with a vague textual descript
 
 ├── aims-intern-round2.py   # Main application script
 ├── recipes_2.csv           # Dataset containing sample recipes
-├── images/                 # Directory with sample dish images
-├── shell.nix               # Nix shell configuration for environment setup
+├── images(2)/images/                 # Directory with sample dish images
 └── README.md               # Project documentation
 ```
 
@@ -42,7 +39,6 @@ The application processes an image of a dish along with a vague textual descript
 
 * Python 3.8 or higher
 * Git
-* Nix (optional, for environment setup)
 
 ### Steps
 
@@ -56,14 +52,6 @@ The application processes an image of a dish along with a vague textual descript
 
 
 2. **Set Up the Environment**
-
-   * **Using Nix:**
-
-     ```bash
-     nix-shell shell.nix
-     ```
-
-   * **Using pip:**
 
      ```bash
      pip install -r requirements.txt
